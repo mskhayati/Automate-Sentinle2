@@ -22,7 +22,7 @@ An end-to-end Python pipeline to monitor strategic sites and military installati
 ## Installation & Setup:
 1. Clone the Repository:
 ```text
-git clone [https://github.com/your-username/sentinel2-military-sr.git](https://github.com/your-username/sentinel2-military-sr.git)
+git clone https://github.com/mskhayati/Automate-Sentinle2.git
 cd sentinel2-military-sr
 ```
 2. Set Up a Virtual Environment (Python 3.10+)
