@@ -72,17 +72,17 @@ python download_cdse.py
 ```
 Outputs are saved to ./output_cdse/<location_key>/
 
-2. Free Visual Streaming (Method 2: AWS Public COGs)Downloads the exact same targets via AWS STAC COGs without requiring API credentials or authentication:
+2. Free Visual Streaming (Method 2: AWS Public COGs) Downloads the exact same targets via AWS STAC COGs without requiring API credentials or authentication:
 ```Bash
 python download_aws.py
 ```
 Outputs are saved to ./output_aws/<location_key>/.
 
-3. Collect Raw 4-Band Sentinel-2 GeoTIFFDownloads the native surface reflectance bands (Red, Green, Blue, NIR) cropped for a target area and stacks them into a 16-bit GeoTIFF:
+3. Collect Raw 4-Band Sentinel-2 GeoTIFF Downloads the native surface reflectance bands (Red, Green, Blue, NIR) cropped for a target area and stacks them into a 16-bit GeoTIFF:
 ```Bash
 python collect_4bands.py
 ```
-Outputs a 4-band GeoTIFF: AlUdeid_4bands_<date>.tif.
+Outputs a 4-band GeoTIFF. Use case is for SEN2SR model AI Super-Resolution. Change the location you want from the locations.json and replace with bbox.
 
 4. Run AI Super-Resolution (10 m $\rightarrow$ 2.5 m)Runs the SEN2SR model (for full  guide visit main project: https://github.com/ESAOpenSR/sen2sr) across the stacked raster using sliding-window tiling and Hann blending:
 ```Bash
