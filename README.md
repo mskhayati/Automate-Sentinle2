@@ -36,9 +36,9 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 ```
-3. Install PyTorch with CUDA SupportIf you are running on an NVIDIA GPU (recommended for super-resolution):Bash# Example for CUDA 12.x
+3. Install PyTorch with CUDA SupportIf you are running on an NVIDIA GPU (recommended for super-resolution): Example for CUDA 12.x
 ```text
-pip install torch torchvision --index-url [https://download.pytorch.org/whl/cu121](https://download.pytorch.org/whl/cu121)
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
 ```
 4. Install Project Requirements:
 ```text
