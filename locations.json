@@ -1,0 +1,47 @@
+{
+  "al_udeid": {
+    "name": "Al Udeid Air Base",
+    "country": "Qatar",
+    "bbox": [51.26, 25.07, 51.38, 25.16]
+  },
+  "al_dhafra": {
+    "name": "Al Dhafra Air Base",
+    "country": "UAE",
+    "bbox": [54.49, 24.20, 54.60, 24.30]
+  },
+  "prince_sultan": {
+    "name": "Prince Sultan Air Base",
+    "country": "Saudi Arabia",
+    "bbox": [47.52, 24.01, 47.64, 24.11]
+  },
+  "nsa_bahrain": {
+    "name": "Naval Support Activity Bahrain",
+    "country": "Bahrain",
+    "bbox": [50.59, 26.19, 50.64, 26.24]
+  },
+  "king_fahad": {
+    "name": "King Fahad Air Base",
+    "country": "Saudi Arabia",
+    "bbox": [40.49, 21.43, 40.60, 21.53]
+  },
+  "ali_al_salem": {
+    "name": "Ali Al Salem Air Base",
+    "country": "Kuwait",
+    "bbox": [47.46, 29.30, 47.58, 29.39]
+  },
+  "muwaffaq_salti": {
+    "name": "Muwaffaq Salti Air Base",
+    "country": "Jordan",
+    "bbox": [36.73, 31.78, 36.84, 31.87]
+  },
+  "prince_hassan": {
+    "name": "Prince Hassan Air Base (H-5)",
+    "country": "Jordan",
+    "bbox": [37.10, 32.12, 37.20, 32.20]
+  },
+  "camp_titin": {
+    "name": "Camp Titin",
+    "country": "Jordan",
+    "bbox": [35.01, 29.32, 35.09, 29.39]
+  }
+}
