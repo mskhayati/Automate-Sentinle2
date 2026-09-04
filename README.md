@@ -84,7 +84,7 @@ python collect_4bands.py
 ```
 Outputs a 4-band GeoTIFF: AlUdeid_4bands_<date>.tif.
 
-4. Run AI Super-Resolution (10 m $\rightarrow$ 2.5 m)Runs the SEN2SR model across the stacked raster using sliding-window tiling and Hann blending:
+4. Run AI Super-Resolution (10 m $\rightarrow$ 2.5 m)Runs the SEN2SR model (for full  guide visit main project: https://github.com/ESAOpenSR/sen2sr) across the stacked raster using sliding-window tiling and Hann blending:
 ```Bash
 python run_sen2sr.py
 ```
